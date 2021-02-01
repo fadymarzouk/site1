@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(216, 22, 71, 0.5), rgba(46, 33, 240, 0.5)), url(photo-1562813733-b31f71025d54.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-par{
+    background: rgba(19, 36, 29, 0.5);
+    height: 80px;
+}
+.logo{
+    margin: 2% 6%;
+    height:10%;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin: 2%;
+}
+.menu li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing:2px;
+    border: 2px solid rgb(118, 68, 165);
+}
+.menu li a:hover{
+    background: rgb(38, 25, 75);
+    transition: .4s;
+    color: rgba(29, 136, 113, 0.808);
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    top: 20%;
+}
+.welcome h1{
+    font-size: 40px;
+    margin: 25px;
+}
+.btn{
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 2px solid #fff
+}
+.btn1{
+    background: #fff;
+    color: rgb(156, 23, 23);
+}
+.btn2{
+    color: #fff;
+}
+.btn2:hover{
+    background: #fff;
+    color: blue;
+    transition: 0.4s; 
+}
+.pro{
+    margin: 2% 6%;
+    height:10%;
+}
+.input-box{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.input-box{
+    width: auto;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(8, 3, 17);
+}
+.input-box h1{
+    font-weight: auto; 
+}
+.card-form .input-box{
+    margin: 15px 0;
+}
+.card-form .input-box input{
+    width: 19%;
+    padding: 5px;
+    background: rgb(235, 233, 238);
+    border: 1px solid rgb(40, 110, 44);
+    border-radius: 50px;
+    color: slateblue;
+}
+.card-form .input-box input :focus{
+    outline: none;
+}
+.card-form .input-box input[type='submit']{
+    background: black;
+    border: none;
+    cursor: pointer;
+}
+.card-form .input-box input[type='submit']:hover{
+    background:#fff;
+    color: #333333;
+}
